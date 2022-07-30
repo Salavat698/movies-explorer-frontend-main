@@ -19,7 +19,7 @@ import ProtectedRoute from  '../ProtectedRoute/ProtectedRoute';
 import auth from '../../utils/auth';
 import { errors, registrationSucceed } from '../../utils/constants';
 import mainApi from '../../utils/mainApi';
-
+// сделал типо изменения для пуллреквеста
 function App() {
   const [ isMenuOpen, setIsMenuOpen ] = useState(false);
   const [ screenWidth, setScreenWidth ] = useState(document.documentElement.clientWidth);
