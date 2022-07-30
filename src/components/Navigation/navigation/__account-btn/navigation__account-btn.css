@@ -1,0 +1,39 @@
+.navigation__account-btn {
+  background-image: url('../../../../images/account_button_header.svg');
+  min-height: 40px;
+  min-width: 100px;
+  margin: auto 0;
+  background-repeat: no-repeat;
+  background-size:cover;
+  transition: transform .2s ease-in-out, filter .2s ease-in-out;
+  margin-left: auto;
+  display: flex;
+  /* color: #000000;
+  background-color:#000000; */
+}
+
+.navigation__account-btn:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0px 0px 2px rgb(233, 228, 228, .8));
+}
+
+@media screen and (max-width: 768px) {
+  .navigation__account-btn {
+    margin: unset;
+    margin-bottom: 90px;
+    margin-top: auto;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navigation__account-btn {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-height: 300px) {
+  .navigation__account-btn {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,33 @@
+.navigation__menu-btn {
+  background-image: url(../../../../images/Menu-btn.svg);
+  background-color: transparent;
+  border: none;
+  height: 23px;
+  width: 28px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .2s ease-in-out;
+  margin: auto 0 auto auto;
+  outline: none;
+}
+
+.navigation__menu-btn:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0px 0px 3px rgba(243, 243, 243, 0.8));
+}
+
+@media screen and (max-width: 768px) {
+  .navigation__menu-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navigation__menu-btn {
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,24 @@
+.link_place_form {
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-left: 6px;
+}
+
+.link_place_form::after {
+  display: block;
+  content: '';
+  padding-bottom: 3px; 
+  border-bottom: solid 1px #4285F4;
+  transform: scaleX(0);  
+  transition: all .2s ease-in-out;
+  opacity: .7;
+  margin-left: 176px;
+}
+
+@media screen and (max-width: 500px) {
+  .link_place_form {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

@@ -1,0 +1,15 @@
+.about-project__table-heading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  letter-spacing: -0.04em;
+}
+
+@media screen and (max-width: 500px) {
+  .about-project__table-heading {
+    font-size: 18px;
+    line-height: 22px;  
+  }
+}

@@ -1,0 +1,15 @@
+.form__input_place_edit::placeholder {
+  color: #8B8B8B;
+  padding-left: 0px;
+  background-repeat: no-repeat;
+  background-position-y: -6px;
+  transition: opacity .3s ease-in-out;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.form__input_place_edit:focus::-webkit-input-placeholder {
+  opacity: 0;
+}

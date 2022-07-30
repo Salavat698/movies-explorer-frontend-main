@@ -1,0 +1,19 @@
+.search-form__border {
+  height: 40px;
+  width: 1px;
+  margin: auto 0;
+  border-left: 1px solid #CBCBCB;
+  margin: auto 26px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .search-form__border {
+    margin-right: 18px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .search-form__border {
+    display: none;
+  }
+}

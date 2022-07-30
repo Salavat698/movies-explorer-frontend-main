@@ -1,0 +1,31 @@
+.portfolio__arrow {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../../../../images/arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 29px;
+  height: 60px;
+  transition: transform .2s ease-in-out, filter .2s ease-in-out;
+  align-self: center;
+  color: #000000;
+}
+
+.portfolio__arrow:hover {
+  transform: scale(1.4);
+  filter: drop-shadow(0px 0px 3px rgb(237, 245, 239));
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio__arrow {
+    width: 27px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .portfolio__arrow {
+    background-size: contain;
+    width: 20px;
+    height: 11px;
+  }
+}

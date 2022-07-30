@@ -1,0 +1,31 @@
+.link_place_error {
+  color: #000000;
+  background-color: transparent;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  top: 585px;
+}
+
+.link_place_error::after {
+  border-bottom: solid 2px #4285F4;
+  padding-bottom: 5px; 
+}
+
+@media screen and (max-width: 768px) {
+  .link_place_error {
+    top: 635px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .link_place_error {
+    top: 715px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

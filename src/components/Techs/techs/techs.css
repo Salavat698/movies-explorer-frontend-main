@@ -1,0 +1,13 @@
+.techs {
+  display: flex;
+  background-color: #F2F2F2;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .techs {
+    background-color: transparent;
+    margin-top: 0;
+  }
+}

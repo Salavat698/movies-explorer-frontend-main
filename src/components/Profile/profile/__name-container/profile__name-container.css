@@ -1,0 +1,5 @@
+.profile__name-container {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

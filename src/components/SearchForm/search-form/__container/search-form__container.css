@@ -1,0 +1,25 @@
+.search-form__container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+  position: relative;
+}
+
+.search-form__container::after {
+  content: '';
+  border-bottom: 2px solid #E8E8E8;
+  margin: 0 70px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .search-form__container::after {
+    margin: 0 30px 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .search-form__container::after {
+    border: 1px solid #424242;
+    margin: 0 14px 10px;
+  }
+}

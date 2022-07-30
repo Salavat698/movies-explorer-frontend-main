@@ -1,0 +1,31 @@
+.about-project__terms {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-top: 110px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-project__terms {
+    margin-top: 93px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-project__terms {
+    grid-template-columns: 150px 4fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-project__terms {
+
+    grid-template-columns: 120px 4fr;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about-project__terms {
+    margin-top: 60px;
+    grid-template-columns: 100px 4fr;
+  }
+}

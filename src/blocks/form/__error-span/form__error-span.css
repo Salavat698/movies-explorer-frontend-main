@@ -1,0 +1,9 @@
+.form__error-span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #EE3465;
+  min-height: 18px;
+  margin-top: 6px;
+}

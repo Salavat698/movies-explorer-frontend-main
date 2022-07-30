@@ -1,0 +1,16 @@
+.movies-card-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 70px;
+  margin-right: 70px;
+  align-self: center;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .movies-card-list {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}

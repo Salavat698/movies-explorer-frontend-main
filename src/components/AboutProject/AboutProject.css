@@ -1,0 +1,12 @@
+@import url(./about-project/about-project.css);
+@import url(./about-project/__container/about-project__container.css);
+@import url(./about-project/__table/about-project__table.css);
+@import url(./about-project/__table-text/about-project__table-text.css);
+@import url(./about-project/__table-cell/about-project__table-cell.css);
+@import url(./about-project/__table-heading/about-project__table-heading.css);
+@import url(./about-project/__terms/about-project__terms.css);
+@import url(./about-project/__term/about-project__term.css);
+@import url(./about-project/__tech/about-project__tech.css);
+@import url(./about-project/__tech-name/about-project__tech-name.css);
+@import url(./about-project/__tech/_backend/about-project__tech_backend.css);
+@import url(./about-project/__term/_backend/about-project__term_backend.css);

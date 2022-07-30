@@ -1,0 +1,9 @@
+.logo_place_form {
+  margin: 70px auto 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  .logo_place_form {
+    margin: 0 auto;
+  }
+}

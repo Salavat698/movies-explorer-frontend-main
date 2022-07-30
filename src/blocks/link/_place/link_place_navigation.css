@@ -1,0 +1,9 @@
+.link_place_navigation {
+  align-self: center;
+  /* color: #0000; */
+}
+
+.link_place_navigation:first-of-type {
+  margin-right: 16px;
+  margin-left: auto;
+}

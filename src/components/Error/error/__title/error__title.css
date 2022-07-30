@@ -1,0 +1,15 @@
+.error__title {
+  font-size: 140px;
+  line-height: 169px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0 auto 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .error__title {
+    font-size: 80px;
+    line-height: 97px;
+    margin-bottom: 10px;
+  }
+}

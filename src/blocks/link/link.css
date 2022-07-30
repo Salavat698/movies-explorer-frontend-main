@@ -1,0 +1,26 @@
+.link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  transition: all .2s ease-in-out;
+  color: #000000;
+}
+
+.link:hover {
+  opacity: .7;
+}
+
+.link::after {
+  display: block;
+  content: '';
+  border-bottom: solid 2px #fff;
+  transform: scaleX(0);  
+  transition: all .2s ease-in-out;
+  padding-bottom: 3px; 
+  opacity: .7;
+}
+
+.link:hover:after {
+  transform: scaleX(1);
+}

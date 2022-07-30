@@ -1,0 +1,18 @@
+.portfolio__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 70px 115px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio__container {
+    margin: 0 50px 90px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .portfolio__container {
+    margin: 0 14px 70px;
+  }
+}

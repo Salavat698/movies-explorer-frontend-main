@@ -1,0 +1,28 @@
+.search-form__button {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  border: none;
+  background-image: url(../../../../images/find_icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 35px;
+  height: 34px;
+  padding-left: 90px;
+  align-self: center;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  margin-right: 30px;
+  outline: none;
+}
+
+.search-form__button:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0px 0px 3px #4285F4);
+}
+
+@media screen and (max-width: 768px) {
+  .search-form__button {
+    margin-right: 18px;
+  }
+}

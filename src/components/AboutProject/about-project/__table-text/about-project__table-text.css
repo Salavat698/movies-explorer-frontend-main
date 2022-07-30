@@ -1,0 +1,25 @@
+.about-project__table-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 26px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about-project__table-text {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 22px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-project__table-text {
+    font-size: 11px;
+    line-height: 16px;
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+}

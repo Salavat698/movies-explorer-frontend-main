@@ -1,0 +1,9 @@
+.link_place_form-registration::after {
+  margin-left: 176px;
+}
+
+@media screen and (max-width: 500px) {
+  .link_place_form-registration::after {
+    margin-left: 151px;
+  }
+}

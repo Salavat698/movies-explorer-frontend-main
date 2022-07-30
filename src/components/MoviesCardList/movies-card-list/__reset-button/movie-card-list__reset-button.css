@@ -1,0 +1,35 @@
+.movie-card-list__reset-button {
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  top: 10px;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 110px;
+  align-items: center;
+  justify-content: center;
+  background-color: #2F2F2F;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  transition: all .2s linear;
+  color: #8B8B8B;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.movie-card-list__reset-button:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0px 0px 3px rgba(215, 228, 217, 0.8));
+  box-shadow: inset 0px 0px 4px rgba(236, 234, 234, 0.5);
+}
+
+@media screen and (max-width: 500px) {
+  .movie-card-list__reset-button {
+    height: 30px;
+    top: 0;
+    width: 90px;
+    font-size: 14px;
+  }
+}

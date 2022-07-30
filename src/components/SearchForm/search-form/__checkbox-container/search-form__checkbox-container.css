@@ -1,0 +1,26 @@
+.search-form__checkbox-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 560px) {
+  .search-form__checkbox-container {
+    position: absolute;
+    bottom: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .search-form__checkbox-container {
+    position: absolute;
+    bottom: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}

@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+  .link_place_side-menu-opened {
+    margin: unset;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 22px;
+    align-self: center;
+    opacity: 1;
+  }
+
+  .link_place_side-menu-opened:after {
+    border-bottom: solid 2px #fff;
+  }
+
+  .link_place_side-menu-opened:first-of-type {
+    margin-top: 99px;
+  }
+  
+  .link_place_side-menu-opened:nth-child(4) {
+    margin-bottom: 40px;
+    margin-top: 18px;
+  }
+}

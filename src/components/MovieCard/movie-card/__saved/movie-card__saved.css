@@ -1,0 +1,14 @@
+.movie-card__saved {
+  background: url(../../../../images/delete_saved_movie.svg) no-repeat;
+  width: 21px;
+  height: 20px;
+  font-size: 0;
+}
+
+@media screen and (max-width: 440px) {
+  .movie-card__saved {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}

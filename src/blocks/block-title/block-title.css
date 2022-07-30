@@ -1,0 +1,27 @@
+.block-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  margin: 0;
+  color: #000000;
+}
+
+.block-title::after {
+  display: flex;
+  content: '';
+  border-bottom: 1px #000000 solid;
+  margin-top: 23px;
+}
+
+@media screen and (max-width: 500px) {
+  .block-title {
+    font-size: 18px;
+    line-height: 22px;    
+  }
+
+  .block-title::after {
+    margin-top: 28px;
+  }
+}

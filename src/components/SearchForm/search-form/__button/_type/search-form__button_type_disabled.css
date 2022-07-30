@@ -1,0 +1,9 @@
+.search-form__button_type_disabled {
+  background-image: url(../../../../../images/find_icon.svg);
+  cursor: auto;
+}
+
+.search-form__button_type_disabled:hover {
+  transform: none;
+  filter: none;
+}

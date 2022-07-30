@@ -1,0 +1,25 @@
+.popup__success-sign {
+    height: 9em;
+    width: 9em;
+    opacity: 1;
+}
+
+.popup__success-sign path {
+    fill: none;
+    stroke: #7ac142;
+    stroke-width: 4;
+    stroke-dasharray: 23;
+    stroke-dashoffset: 23;
+    animation: draw .5s ease-in-out forwards;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    opacity: 1;
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0
+    }
+}
+
+

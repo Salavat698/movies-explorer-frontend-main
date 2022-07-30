@@ -1,0 +1,9 @@
+.form__button_place_register {
+  margin-top: 128px;
+}
+
+@media screen and (max-width: 500px) {
+  .form__button_place_register {
+    margin-top: 215px  ;
+  }
+}

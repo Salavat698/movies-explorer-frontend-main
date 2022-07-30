@@ -1,0 +1,7 @@
+.about-project__tech {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  max-width: 912px;
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+.about-project__table-cell {
+  list-style-type: none;
+}
+
+.about-project__table-cell:first-of-type {
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-project__table-cell:first-of-type {
+    margin-right: 38px;
+    max-width: 310px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-project__table-cell:first-of-type {
+    margin-right: auto;
+    margin-bottom: 56px;
+  }
+}

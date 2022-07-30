@@ -1,0 +1,12 @@
+.about-project__table {
+  display: flex;
+  padding: 0;
+  margin: 70px auto 0;
+}
+
+@media screen and (max-width: 500px) {
+  .about-project__table {
+    margin-top: 60px;
+    flex-direction: column;
+  }
+}

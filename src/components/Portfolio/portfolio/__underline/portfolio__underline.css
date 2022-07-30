@@ -1,0 +1,17 @@
+.portfolio__underline {
+  border-bottom: 1px solid #424242;
+  margin: 10px 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio__underline {
+    border-color: #E5E5E5;
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .portfolio__underline {
+    margin: 7px 0 10px;
+  }
+}

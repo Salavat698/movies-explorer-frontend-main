@@ -1,0 +1,15 @@
+.navtab {
+  display: flex;
+  margin: 0;
+}
+@media screen and (max-width: 1100px) {
+  .navtab {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navtab {
+    margin-bottom: 17px;
+  }
+}

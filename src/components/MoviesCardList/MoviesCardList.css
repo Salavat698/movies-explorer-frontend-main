@@ -1,0 +1,5 @@
+@import url(./movies-card-list/movies-card-list.css);
+@import url(./movies-card-list/__reset-button/movie-card-list__reset-button.css);
+@import url(./movies-card-list/__more-btn/movies-card-list__more-btn.css);
+@import url(./movies-card-list/__catalog/movie-card-list__catalog.css);
+@import url(./movies-card-list/__missing-content-msg/movie-card-list__missing-content-msg.css);

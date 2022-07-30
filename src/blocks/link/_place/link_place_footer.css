@@ -1,0 +1,28 @@
+.link_place_footer {
+  margin: 0 0 0 20px;
+  list-style-type: none;
+  line-height: 16px;
+  color:#000000;
+}
+
+.link_place_footer:first-child {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .link_place_footer {
+    flex-direction: column;
+    padding: 0;
+    margin: auto;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .link_place_footer:first-child {
+    margin: auto auto 8px;
+  }
+
+  .link_place_footer:last-child {
+    margin: 10px auto 25px;
+  }
+}

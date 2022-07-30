@@ -1,0 +1,5 @@
+.portfolio__links {
+  display: flex;
+  flex-direction: row;
+  color: #000000;
+}

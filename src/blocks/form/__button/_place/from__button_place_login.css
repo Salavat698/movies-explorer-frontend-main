@@ -1,0 +1,9 @@
+.from__button_place_login {
+  margin-top: 197px  ;
+}
+
+@media screen and (max-width: 500px) {
+  .from__button_place_login {
+    margin-top: 285px  ;
+  }
+}

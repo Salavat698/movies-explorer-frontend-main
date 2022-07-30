@@ -1,0 +1,39 @@
+.about-me__info {
+  max-width: 600px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1050px) {
+  .about-me__info {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .about-me__info {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .about-me__info {
+    max-width: 370px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-me__info {
+    max-width: 370px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-me__info {
+    margin-top: 40px;
+    margin-right: auto;
+  }
+}

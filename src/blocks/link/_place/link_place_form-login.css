@@ -1,0 +1,9 @@
+.link_place_form-login::after {
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 500px) {
+  .link_place_form-login::after {
+    margin-left: 172px;
+  }
+}

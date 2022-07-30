@@ -1,0 +1,21 @@
+.search-form__checkbox-caption {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  margin: auto 30px auto 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .search-form__checkbox-caption {
+   margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .search-form__checkbox-caption {
+    font-size: 11px;
+    line-height: 18px;
+    margin-right: 0;
+  }
+}

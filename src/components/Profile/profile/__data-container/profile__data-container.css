@@ -1,0 +1,21 @@
+.profile__data-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 123px;
+  margin-bottom: 220px;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__data-container {
+    margin-top: 96px;
+    margin-bottom: 208px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .profile__data-container {
+    margin: 80px 30px 378px;
+    width: auto;
+  }
+}

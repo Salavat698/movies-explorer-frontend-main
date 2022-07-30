@@ -1,0 +1,22 @@
+.popup__status-msg {
+  max-width: 550px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .popup__status-msg {
+    max-width: 450px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .popup__status-msg {
+    max-width: 320px;
+    font-weight: 500;
+    text-align: center;
+  }
+}

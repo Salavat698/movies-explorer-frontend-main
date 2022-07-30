@@ -1,0 +1,26 @@
+.techs__name {
+  display: flex;
+  margin: 0;
+  width: 90px;
+  height: 60px;
+  background-color: #E8E8E8;
+  color: #000000;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.04em;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media screen and (max-width: 768px) {
+  .techs__name {
+    width: 84px;
+    height: 57px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

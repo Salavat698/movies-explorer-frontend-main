@@ -1,0 +1,17 @@
+.techs__container {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 70px 85px;
+}
+
+@media screen and (max-width: 768px) {
+  .techs__container {
+    margin: 90px 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .techs__container {
+    margin: 70px 18px;
+  }
+}

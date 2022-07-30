@@ -1,0 +1,12 @@
+.header__links-container {
+  display: flex;
+  margin: auto 0;
+  width: 100%;
+  transition: all .2s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  .header__links-container  {
+    width: 0;
+  }
+}

@@ -1,0 +1,4 @@
+@import url(./popup/popup.css);
+@import url(./popup/__success-sign/popup__success-sign.css);
+@import url(./popup/__failure-sign/popup__failure-sign.css);
+@import url(./popup/__status-msg/popup__status-msg.css);

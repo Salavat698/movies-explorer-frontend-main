@@ -1,0 +1,6 @@
+.header__enterance-links {
+  display: flex;
+  margin: auto 0;
+  width: 100%;
+  transition: all .2s ease-in;
+}

@@ -1,0 +1,11 @@
+.error {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  min-height: 320px;
+  background-color: #ffff;
+  color: #000000;
+  z-index: 1;
+}
