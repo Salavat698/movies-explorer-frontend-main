@@ -1,5 +1,5 @@
 export const beatfilmApiURL = 'https://api.nomoreparties.co';
-export const mainApiURL = 'http://localhost:3002';
+export const mainApiURL = 'https://slt116.nomoredomains.club';
 
 export const errors = {
   minPassLength: 'Длина пароля должна быть более восьми символов.',
