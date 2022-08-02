@@ -1,17 +1,17 @@
-.promo__subtitle{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 16px;
+.promo__subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
 
-    color: #000000;
+  color: #000000;
 
-    mix-blend-mode: normal;
-    opacity: 0.5;
+  mix-blend-mode: normal;
+  opacity: 0.5;
 }
 @media screen and (max-width: 1100px) {
-    .promo__subtitle {
-      align-self:center;
-    }
+  .promo__subtitle {
+    align-self: center;
   }
+}

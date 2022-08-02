@@ -13,8 +13,8 @@
 }
 
 .link_place_error::after {
-  border-bottom: solid 2px #4285F4;
-  padding-bottom: 5px; 
+  border-bottom: solid 2px #4285f4;
+  padding-bottom: 5px;
 }
 
 @media screen and (max-width: 768px) {

@@ -5,12 +5,12 @@
   padding-left: 19px;
   width: 95%;
   height: 67px;
-  transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
   border-radius: 6px;
 }
 
 .search-form__input::placeholder {
-  color: #8B8B8B;
+  color: #8b8b8b;
   font-weight: normal;
   font-size: 18px;
   line-height: 20px;
@@ -18,7 +18,7 @@
   background-image: url(../../../../images/search_icon.svg);
   background-repeat: no-repeat;
   background-position-y: -6px;
-  transition: opacity .3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .search-form__input:focus::-webkit-input-placeholder {

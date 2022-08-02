@@ -1,28 +1,27 @@
 .navigation_opened {
   z-index: 1;
-  transition: left .4s ease-in-out;
-  right:  1px;
+  transition: left 0.4s ease-in-out;
+  right: 1px;
   width: 68%;
   margin-left: auto;
-  transition: all .4s ease-in;
+  transition: all 0.4s ease-in;
   z-index: 2;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .navigation_opened::after {
   background-color: FFFFFF;
-  opacity: .3;
+  opacity: 0.3;
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   z-index: 1;
-
 }
 
 @media screen and (max-width: 500px) {
   .navigation_opened {
-    width: 100%
+    width: 100%;
   }
 }

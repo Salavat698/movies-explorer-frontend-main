@@ -21,9 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy":"  scp -r ./build/* slt116@51.250.68.156:/home/slt116/moves-frotend"
-    
-
+    "deploy": "  scp -r ./build/* slt116@51.250.68.156:/home/slt116/moves-frotend"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +42,8 @@
     ]
   },
   "devDependencies": {
-    "css-to-bem-file-structure": "0.0.1"
+    "css-to-bem-file-structure": "0.0.1",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "2.7.1"
   }
 }

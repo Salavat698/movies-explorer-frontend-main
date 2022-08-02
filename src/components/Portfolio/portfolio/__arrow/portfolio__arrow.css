@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   width: 29px;
   height: 60px;
-  transition: transform .2s ease-in-out, filter .2s ease-in-out;
+  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
   align-self: center;
   color: #000000;
 }

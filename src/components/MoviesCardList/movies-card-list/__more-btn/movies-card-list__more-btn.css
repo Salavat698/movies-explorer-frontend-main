@@ -1,7 +1,7 @@
 .movies-card-list__more-btn {
   border: none;
   border-radius: 6px;
-  background-color: #2F2F2F;
+  background-color: #2f2f2f;
   color: #fff;
   font-style: normal;
   font-weight: 500;
@@ -9,7 +9,7 @@
   line-height: 15px;
   height: 36px;
   cursor: pointer;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   margin: 0 70px;
   outline: none;
 }

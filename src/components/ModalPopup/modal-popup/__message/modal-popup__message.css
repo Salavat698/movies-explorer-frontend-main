@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .modal-popup__message  {
+  .modal-popup__message {
     line-height: 18px;
     font-size: 14px;
     margin: 15px;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 500px) {
-  .modal-popup__message  {
+  .modal-popup__message {
     line-height: 15px;
     font-size: 12px;
   }

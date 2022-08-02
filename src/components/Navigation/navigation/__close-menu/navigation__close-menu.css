@@ -11,7 +11,7 @@
     margin-top: 12px;
     margin-right: 20px;
     align-self: end;
-    transition: all .2s linear;
+    transition: all 0.2s linear;
     outline: none;
   }
   .navigation__close-menu:hover {

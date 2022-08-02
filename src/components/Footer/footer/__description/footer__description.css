@@ -1,5 +1,5 @@
 .footer__description {
-  color: #8B8B8B;
+  color: #8b8b8b;
   font-size: 13px;
   line-height: 16px;
   text-align: center;
@@ -8,9 +8,9 @@
 
 .footer__description::after {
   display: block;
-  content: '';
-  border-bottom: solid 1px #E8E8E8;
-  padding-bottom: 20px; 
+  content: "";
+  border-bottom: solid 1px #e8e8e8;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 500px) {

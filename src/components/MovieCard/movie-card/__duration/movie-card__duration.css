@@ -1,11 +1,11 @@
 .movie-card__duration {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
   line-height: 13px;
   display: flex;
   align-items: center;
-  
-  color: #A0A0A0;
+
+  color: #a0a0a0;
 }

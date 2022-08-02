@@ -4,9 +4,9 @@
   background: url(../../../../images/saved.svg) no-repeat;
   width: 20px;
   height: 100%;
-  border:none;
+  border: none;
   cursor: pointer;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 440px) {

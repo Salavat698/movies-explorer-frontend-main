@@ -1,7 +1,7 @@
 .scroll-up {
   position: fixed;
   background-color: rgba(40, 30, 30, 0.788);
-  opacity: .6;
+  opacity: 0.6;
   border-radius: 60px;
   height: 50px;
   width: 70px;
@@ -10,7 +10,7 @@
   bottom: -100px;
   right: 75px;
   cursor: pointer;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 @keyframes scroll-up {
@@ -29,7 +29,7 @@
 
 .scroll-up::after,
 .scroll-up::before {
-  content: '';
+  content: "";
   position: absolute;
   border: 2px solid rgba(70, 40, 40, 1);
   left: -10px;

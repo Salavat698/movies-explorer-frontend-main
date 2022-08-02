@@ -5,13 +5,13 @@
   line-height: 17px;
   align-self: center;
   margin-right: 16px;
-  color:#000000;
+  color: #000000;
 }
 
 .link_place_header-registration:first-child {
   margin-right: 30px;
   margin-left: auto;
-} 
+}
 
 @media screen and (max-width: 500px) {
   .link_place_header-registration:first-child {

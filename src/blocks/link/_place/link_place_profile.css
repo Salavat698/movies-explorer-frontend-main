@@ -3,10 +3,9 @@
 }
 
 .link_place_profile:last-of-type {
-  color: #EE3465;
-
+  color: #ee3465;
 }
 
 .link_place_profile:last-of-type::after {
-  border-bottom: solid 1px #EE3465;
+  border-bottom: solid 1px #ee3465;
 }

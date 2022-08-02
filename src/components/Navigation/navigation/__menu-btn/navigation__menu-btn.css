@@ -9,7 +9,7 @@
   margin-left: auto;
   opacity: 0;
   visibility: hidden;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   margin: auto 0 auto auto;
   outline: none;
 }

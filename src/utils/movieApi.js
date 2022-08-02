@@ -1,13 +1,13 @@
-import { beatfilmApiURL } from './constants';
+import { beatfilmApiURL } from "./constants";
 
 class MovieApi {
-  constructor({ address, headers}) {
+  constructor({ address, headers }) {
     this._address = address;
     this._headers = headers;
   }
 
   _checkServerResponse(item) {
-    if(item.ok) {
+    if (item.ok) {
       return item.json();
     } else {
       return Promise.reject(item.status);
@@ -16,18 +16,17 @@ class MovieApi {
 
   getMovies() {
     return fetch(`${this._address}/beatfilm-movies`, {
-      method: 'GET',
+      method: "GET",
       headers: this._headers,
-    })
-    .then(res => this._checkServerResponse(res))
+    }).then((res) => this._checkServerResponse(res));
   }
 }
 
 const movieApi = new MovieApi({
   address: beatfilmApiURL,
   headers: {
-    'Content-Type': 'application/json'
-  }
+    "Content-Type": "application/json",
+  },
 });
 
 export default movieApi;

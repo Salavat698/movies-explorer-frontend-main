@@ -1,4 +1,4 @@
 .scroll-up_visible {
-  transition: all .4s ;
+  transition: all 0.4s;
   bottom: 85px;
 }

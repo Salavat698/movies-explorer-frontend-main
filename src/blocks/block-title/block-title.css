@@ -10,7 +10,7 @@
 
 .block-title::after {
   display: flex;
-  content: '';
+  content: "";
   border-bottom: 1px #000000 solid;
   margin-top: 23px;
 }
@@ -18,7 +18,7 @@
 @media screen and (max-width: 500px) {
   .block-title {
     font-size: 18px;
-    line-height: 22px;    
+    line-height: 22px;
   }
 
   .block-title::after {

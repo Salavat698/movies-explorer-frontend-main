@@ -18,7 +18,6 @@
 
 @media screen and (max-width: 500px) {
   .about-project__terms {
-
     grid-template-columns: 120px 4fr;
   }
 }

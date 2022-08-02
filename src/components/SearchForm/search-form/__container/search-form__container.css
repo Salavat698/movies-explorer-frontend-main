@@ -7,8 +7,8 @@
 }
 
 .search-form__container::after {
-  content: '';
-  border-bottom: 2px solid #E8E8E8;
+  content: "";
+  border-bottom: 2px solid #e8e8e8;
   margin: 0 70px 10px;
 }
 

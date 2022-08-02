@@ -1,9 +1,9 @@
 .form__input_place_edit::placeholder {
-  color: #8B8B8B;
+  color: #8b8b8b;
   padding-left: 0px;
   background-repeat: no-repeat;
   background-position-y: -6px;
-  transition: opacity .3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   font-style: normal;
   font-weight: 500;
   font-size: 11px;

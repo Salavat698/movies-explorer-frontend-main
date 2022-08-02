@@ -1,19 +1,19 @@
 .movie-card-list__reset-button {
-  position: absolute; 
-  left: 0; 
-  right: 0; 
+  position: absolute;
+  left: 0;
+  right: 0;
   top: 10px;
-  margin-left: auto; 
+  margin-left: auto;
   margin-right: auto;
   width: 110px;
   align-items: center;
   justify-content: center;
-  background-color: #2F2F2F;
+  background-color: #2f2f2f;
   height: 40px;
   border-radius: 10px;
   display: flex;
-  transition: all .2s linear;
-  color: #8B8B8B;
+  transition: all 0.2s linear;
+  color: #8b8b8b;
   outline: none;
   cursor: pointer;
   border: none;
