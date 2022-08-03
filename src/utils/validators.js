@@ -1,5 +1,5 @@
 import validator from "validator";
-import { regexp, passRegexp,passRegexpEmail } from "./constants";
+import { regexp, passRegexp, passRegexpEmail } from "./constants";
 
 const currentUser = JSON.parse(localStorage.getItem("currentUser"));
 

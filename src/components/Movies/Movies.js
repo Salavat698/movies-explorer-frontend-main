@@ -238,10 +238,25 @@ function Movies(props) {
       }
     }
   }
+  // console.log(localStorage.getItem("movieName"))
+  // localStorage.setItem('checkedState',false)
+  // const [name, setName] = useState(() => {
+  //   const saved = localStorage.getItem("name");
+  //   const initialValue = JSON.parse(saved);
+  //   return initialValue || "";
+  // });
+
+  // useEffect(() => {
+  //   // storing input name
+  //   localStorage.setItem("name", JSON.stringify(name));
+  // }, [name]);
+
+  // console.log(localStorage.getItem('checkedState'))
+  // const [checked, setChecked] = useState(false);
+
+  // console.log(checked);
 
   function shortsToggler() {
-    // const currentTextInput = localStorage.getItem('currentTextInput');
-    // setIsShortFilm(currentTextInput);
     setIsShortFilm(!isShortFilm);
   }
 
