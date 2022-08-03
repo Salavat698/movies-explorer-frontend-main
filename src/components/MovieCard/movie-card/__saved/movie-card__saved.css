@@ -1,5 +1,5 @@
 .movie-card__saved {
-  background: url(../../../../images/delete_saved_movie.svg) no-repeat;
+  background: url(../../../../images/saved.svg) no-repeat;
   width: 21px;
   height: 20px;
   font-size: 0;

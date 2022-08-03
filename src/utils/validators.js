@@ -1,5 +1,5 @@
 import validator from "validator";
-import { regexp, passRegexp } from "./constants";
+import { regexp, passRegexp,passRegexpEmail } from "./constants";
 
 const currentUser = JSON.parse(localStorage.getItem("currentUser"));
 
@@ -9,7 +9,7 @@ const validators = {
       return value === "";
     },
     isValidEmail(value) {
-      return !validator.isEmail(value);
+      return !passRegexpEmail.test(value);
     },
     sameData(value) {
       if (JSON.parse(localStorage.getItem("currentUser")) !== null) {

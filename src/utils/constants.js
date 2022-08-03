@@ -1,5 +1,5 @@
 export const beatfilmApiURL = "https://api.nomoreparties.co";
-export const mainApiURL = "https://slt116.nomoredomains.club";
+export const mainApiURL = "https://slt116.nomoredomains.monster";
 
 export const errors = {
   minPassLength: "Длина пароля должна быть более восьми символов.",
@@ -17,6 +17,7 @@ export const errors = {
   badPass: "Вы используете недопутимые символы для пароля.",
 };
 
+export const passRegexpEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 export const passRegexp = /^\S+$/;
 export const regexp = /^[а-яА-ЯёЁa-zA-Z \-]+$/;
 export const registrationSucceed = "Вы зарегистрировались.";
